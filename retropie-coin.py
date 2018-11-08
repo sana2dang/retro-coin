@@ -1,4 +1,3 @@
-
 """
 Title        : RetroPie-Coin
 Author       : zzeromin, member of Raspberrypi Village and Tentacle Team
