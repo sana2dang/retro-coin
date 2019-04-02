@@ -14,11 +14,11 @@ import time
 
 # check your SELECT gpio(BCM) pin number at https://pinout.xyz/
 # Joysticks connected to GPIOs at https://github.com/recalbox/mk_arcade_joystick_rpi
-SELECT = 9 # GPIO Pin Number
-SENSOR = 21 # GPIO Pin Number
+SELECT = 21 # GPIO Pin Number
+SENSOR = 29 # GPIO Pin Number
 DELAY = 1
 
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(SENSOR, GPIO.IN)
 GPIO.setup(SELECT, GPIO.OUT)
